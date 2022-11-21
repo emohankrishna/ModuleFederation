@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --parallel --stream start",
+    "build": "lerna run build --stream",
+    "serve": "lerna run --scope @packages/* --parallel serve",
+    "clean": "lerna run --scope @packages/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
+  "name": "ModuleFederation",
+  "workspaces": [
+    "packages/*"
+  ]
+}

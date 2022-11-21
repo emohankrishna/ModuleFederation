@@ -1,0 +1,1 @@
+(self.webpackChunkCore=self.webpackChunkCore||[]).push([[680],{680:()=>{console.log("Xyz")}}]);
