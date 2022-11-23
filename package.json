@@ -19,6 +19,16 @@
     "type": "git",
     "url": "https://github.com/emohankrishna/ModuleFederation.git"
   },
+  "contributors": [
+    {
+      "name": "Arnab Ghosh",
+      "designation": "Software Architect"
+    },
+    {
+      "name": "Pradeep Boorla",
+      "designation": "Senior Software Architect"
+    }
+  ],
   "license": "UNLICENSED",
   "author": "Ede Mohan Krishna"
 }
