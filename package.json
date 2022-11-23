@@ -1,4 +1,10 @@
 {
+  "version": "1.0.0",
+  "name": "module-federation",
+  "description": "Micro Frond ends implementation using webpack Module Federation Plugin",
+  "workspaces": [
+    "packages/*"
+  ],
   "private": true,
   "scripts": {
     "start": "lerna run --parallel --stream start",
@@ -9,8 +15,10 @@
   "devDependencies": {
     "lerna": "^6.0.3"
   },
-  "name": "ModuleFederation",
-  "workspaces": [
-    "packages/*"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emohankrishna/ModuleFederation.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Ede Mohan Krishna"
 }
