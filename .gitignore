@@ -1,1 +1,5 @@
 node_modules/
+build/
+packages/App1/dist
+packages/App2/dist
+packages/Shell/dist
